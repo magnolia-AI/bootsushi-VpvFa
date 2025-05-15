@@ -22,12 +22,12 @@ export default function Home() {
           */}
       <section className='container mx-auto px-4 pt-24 pb-20 min-h-full pl-0 pr-0'>
         <div className="max-w-[800px] mx-auto text-center">
-          <div className="mb-8 overflow-hidden rounded-lg">
+          <div className="mb-8 overflow-hidden rounded-xl shadow-xl transform hover:scale-[1.02] transition-transform duration-300 relative group">
             <img
               src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/q_TvV_HJqU/image.jpg"
               alt="Beautiful landscape with mountains and lake"
-              className="w-full h-auto object-cover" />
-
+              className="w-full h-[450px] object-cover brightness-[1.02] hover:brightness-[1.05] transition-all duration-300" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
             Template Starter
@@ -98,3 +98,4 @@ export default function Home() {
     </div>);
 
 }
+

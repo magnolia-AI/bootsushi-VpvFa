@@ -39,7 +39,14 @@ export default function RootLayout({
                   Remember to update the mobile navigation in the mobile-nav.tsx file
                 */}
                 {/* <MobileNav /> */}
-                <div className="font-semibold">Template Logo</div>
+                <div className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-200">
+                  <img 
+                    src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/ioXnWdl6K1/image.jpg" 
+                    alt="Mountain Peak Logo" 
+                    className="w-8 h-8" 
+                  />
+                  <span className="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">Alpine</span>
+                </div>
               </div>
               {/* <nav className="hidden md:flex gap-6">
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Link 1</a>
