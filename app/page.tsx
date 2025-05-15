@@ -24,8 +24,8 @@ export default function Home() {
         <div className="max-w-[800px] mx-auto text-center">
           <div className="mb-8 overflow-hidden rounded-lg">
             <img 
-              src="https://source.unsplash.com/random/1200x600?nature" 
-              alt="Random inspirational image" 
+              src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/q_TvV_HJqU/image.jpg" 
+              alt="Beautiful landscape with mountains and lake" 
               className="w-full h-auto object-cover" 
             />
           </div>
@@ -98,4 +98,5 @@ export default function Home() {
     </div>);
 
 }
+
 
