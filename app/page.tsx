@@ -1,34 +1,41 @@
-'use client'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
-import { useToast } from "@/hooks/use-toast"
+'use client';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { useToast } from "@/hooks/use-toast";
 
 export default function Home() {
-  const { toast } = useToast()
+  const { toast } = useToast();
 
   const showToast = () => {
     toast({
       title: "Template Toast",
-      description: "This is a sample toast notification - customize it!",
-    })
-  }
+      description: "This is a sample toast notification - customize it!"
+    });
+  };
 
   return (
     <div className="min-h-full">
       {/* 
-        TEMPLATE SECTION: Hero
-        This is a template hero section - replace with your own content
-        Feel free to change layout, styling, and content completely
-      */}
+          TEMPLATE SECTION: Hero
+          This is a template hero section - replace with your own content
+          Feel free to change layout, styling, and content completely
+         */}
       <section className="container mx-auto px-4 pt-24 pb-20">
         <div className="max-w-[800px] mx-auto text-center">
+          <div className="mb-8 overflow-hidden rounded-lg">
+            <img 
+              src="https://source.unsplash.com/random/1200x600?nature" 
+              alt="Random inspirational image" 
+              className="w-full h-auto object-cover" 
+            />
+          </div>
           <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
             Template Starter
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
           </p>
-          <div className="mt-12 flex gap-4 justify-center">
+          <div className='flex gap-4 justify-center mt-6 text-muted-foreground max-w-[600px] mx-auto bg-transparent'>
             <Button size="lg" className="px-8">Sample Button</Button>
             <Button size="lg" variant="outline" className="px-8" onClick={showToast}>
               Show Toast
@@ -38,10 +45,10 @@ export default function Home() {
       </section>
 
       {/* 
-        TEMPLATE SECTION: Features
-        This demonstrates a card layout - replace with your own content
-        Consider different layouts like grids, lists, or custom components
-      */}
+          TEMPLATE SECTION: Features
+          This demonstrates a card layout - replace with your own content
+          Consider different layouts like grids, lists, or custom components
+         */}
       <section className="container mx-auto px-4 py-20">
         <div className="grid md:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
           <Card>
@@ -72,9 +79,9 @@ export default function Home() {
       </section>
 
       {/* 
-        TEMPLATE SECTION: Call to Action
-        This is a simple CTA section - customize or replace as needed
-      */}
+          TEMPLATE SECTION: Call to Action
+          This is a simple CTA section - customize or replace as needed
+         */}
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-[800px] mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight mb-6">
@@ -88,6 +95,7 @@ export default function Home() {
           </Button>
         </div>
       </section>
-    </div>
-  )
+    </div>);
+
 }
+
