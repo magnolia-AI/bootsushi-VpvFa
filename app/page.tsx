@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <div className="min-h-full">
       {/* 
-           TEMPLATE SECTION: Hero
-           This is a template hero section - replace with your own content
-           Feel free to change layout, styling, and content completely
-          */}
+             TEMPLATE SECTION: Hero
+             This is a template hero section - replace with your own content
+             Feel free to change layout, styling, and content completely
+            */}
       <section className='container mx-auto px-4 pt-24 pb-20 min-h-full pl-0 pr-0'>
         <div className="max-w-[800px] mx-auto text-center">
           <div className="mb-8 overflow-hidden rounded-xl shadow-xl transform hover:scale-[1.02] transition-transform duration-300 relative group">
@@ -30,7 +30,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
-            Template Starter
+            Alpine Eddie
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
@@ -45,10 +45,10 @@ export default function Home() {
       </section>
 
       {/* 
-           TEMPLATE SECTION: Features
-           This demonstrates a card layout - replace with your own content
-           Consider different layouts like grids, lists, or custom components
-          */}
+             TEMPLATE SECTION: Features
+             This demonstrates a card layout - replace with your own content
+             Consider different layouts like grids, lists, or custom components
+            */}
       <section className="container mx-auto px-4 py-20">
         <div className="grid md:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
           <Card>
@@ -79,9 +79,9 @@ export default function Home() {
       </section>
 
       {/* 
-           TEMPLATE SECTION: Call to Action
-           This is a simple CTA section - customize or replace as needed
-          */}
+             TEMPLATE SECTION: Call to Action
+             This is a simple CTA section - customize or replace as needed
+            */}
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-[800px] mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight mb-6">
@@ -98,4 +98,3 @@ export default function Home() {
     </div>);
 
 }
-

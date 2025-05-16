@@ -39,13 +39,13 @@ export default function RootLayout({
                   Remember to update the mobile navigation in the mobile-nav.tsx file
                 */}
                 {/* <MobileNav /> */}
-                <div className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-200">
+                <div className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-200 group">
                   <img 
                     src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/ioXnWdl6K1/image.jpg" 
                     alt="Mountain Peak Logo" 
-                    className="w-8 h-8" 
+                    className="w-8 h-8 drop-shadow-md group-hover:rotate-3 transition-transform duration-300" 
                   />
-                  <span className="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">Alpine</span>
+                  <span className="font-extrabold text-xl tracking-tighter bg-gradient-to-r from-blue-600 via-purple-500 to-teal-400 bg-clip-text text-transparent animate-gradient-x group-hover:scale-105 transition-transform duration-300 drop-shadow-sm">ALPINE</span>
                 </div>
               </div>
               {/* <nav className="hidden md:flex gap-6">
@@ -129,3 +129,4 @@ export default function RootLayout({
     </html>
   )
 }
+
