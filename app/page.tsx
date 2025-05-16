@@ -29,8 +29,9 @@ export default function Home() {
               className="w-full h-[450px] object-cover brightness-[1.02] hover:brightness-[1.05] transition-all duration-300" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
-          <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
-            Alpine Eddie
+          <h1 className="text-5xl font-bold tracking-tight lg:text-6xl relative group">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600 animate-gradient-x inline-block transform transition-transform duration-300 group-hover:scale-105">ALPINE EDDIE</span>
+            <span className="absolute -inset-x-6 -inset-y-3 z-[-1] bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-indigo-600/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg"></span>
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
@@ -98,3 +99,4 @@ export default function Home() {
     </div>);
 
 }
+
